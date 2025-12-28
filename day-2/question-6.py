@@ -32,5 +32,3 @@ for num in D:
     num = int(num)
     answer.append((round(m.sqrt((2 * C * num) / H))))
 print(",".join(str(num) for num in answer))
-
-#it literally took 2 hours to code it by myself without looking at the answer on github :)
