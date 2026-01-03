@@ -22,5 +22,4 @@ output = list()
 for num in user_input:
     if int(num, 2) % 5 == 0:
         output.append(num)
-        
 print(",".join(output))
