@@ -21,6 +21,5 @@ for character in user_input:
         letter_count += 1
     if character.isdigit():
         number_count += 1
-print(f"LETTERS {letter_count}")
-print(f"DIGITS {number_count}")
+print(f"LETTERS {letter_count}\nDIGITS {number_count}")
 
